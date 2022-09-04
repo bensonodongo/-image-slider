@@ -15,3 +15,8 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 }
+
+.image-container {
+  display: flex;
+  transition: 30ms ease-out;
+}
