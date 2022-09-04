@@ -6,3 +6,12 @@ body {
   align-items: center;
   background-color: brown;
 }
+
+.slider-container {
+  position: relative;
+  width: 600;
+  height: 400;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
