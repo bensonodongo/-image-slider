@@ -1,6 +1,7 @@
 body {
   margin: 0%;
   height: 100vh;
+  overflow: hidden;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -19,4 +20,13 @@ body {
 .image-container {
   display: flex;
   transition: 30ms ease-out;
+}
+
+.btn {
+  position: absolute;
+  color: azure;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0.5;
 }
