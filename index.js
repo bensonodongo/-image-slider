@@ -11,18 +11,19 @@ let currentImg = 1;
 let timeout;
 
 //adding event listener on click
-prev.addEventListener("click", () => {
+previousBtn.addEventListener("click", () => {
     currentImg --;
     clearTimeout(timeout);
     updateImg();
 });
 
-next.addEventListener("click", () => {
+nextBtn.addEventListener("click", () => {
     currentImg ++;
     clearTimeout(timeout);
     updateImg();
 });
 
 updateImg();
+
 
 
