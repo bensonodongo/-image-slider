@@ -30,3 +30,15 @@ body {
   cursor: pointer;
   opacity: 0.5;
 }
+
+.btn.prev {
+  left: 10px;
+}
+
+.btn.next {
+  right: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
