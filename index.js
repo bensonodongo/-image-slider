@@ -25,5 +25,16 @@ nextBtn.addEventListener("click", () => {
 
 updateImg();
 
-
-
+//function to update the next image on display
+function updateImg() {
+    if (currentImg > images.length) {
+      currentImg = 1;
+    } else if (currentImg < 1) {
+      currentImg = images.length;
+    }
+    imagesContainer.style.transform = `translateX(-${(currentImg - 1) * 600}px)`;
+    timeout = setTimeout(() => {
+      currentImg++;
+      updateImg();
+    }, 4000);
+  }
